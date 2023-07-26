@@ -3,23 +3,48 @@ import "./food.css";
 
 const FoodComponent = () => {
   const [selectedMeal, setSelectedMeal] = useState("breakfast");
+  const [selectedRiceOption, setSelectedRiceOption] = useState(null);
 
   const getMealDescription = () => {
     const mealDescriptions = {
       breakfast: {
-        description: "Breakfast meals are here!!",
+        description:
+          "Daily:Boiled Egg & Omlette,Bread/Jam/Butter,Tea/coffe/Milk,Sprouts/Corn flakes",
         meals: [
           {
-            name: "Poha",
-            description: "Poha is a popular Indian breakfast dish.",
+            name: "Idly/Wada",
+            description:
+              "Idli is a healthy breakfast that is served with delicious coconut chutney and sambar",
           },
           {
-            name: "Poha",
-            description: "Poha is a popular Indian breakfast dish.",
+            name: "Mysoor Boonda/Upma",
+            description:
+              "Mysore bonda is a healthy snack crunchy on the outer side and soft and spongy in the inner side of the dumpling",
           },
           {
-            name: "Poha",
-            description: "Poha is a popular Indian breakfast dish.",
+            name: "Uthapam",
+            description:
+              "Uthapam is a savory South Indian pancake made from fermented rice and lentil batter, often topped with vegetables.",
+          },
+          {
+            name: "Puri/Poha",
+            description:
+              "Poha is a traditional Indian breakfast dish made from flattened rice, often cooked with onions, peas, and spices.",
+          },
+          {
+            name: "Idli Wada",
+            description:
+              "Idli is a healthy breakfast that is served with delicious coconut chutney and sambar",
+          },
+          {
+            name: "Dosa",
+            description:
+              "Dosa is a popular South Indian fermented crepe made from rice and black gram batter.",
+          },
+          {
+            name: "Aloo Parantha",
+            description:
+              "Aloo Paratha is a delicious Indian flatbread stuffed with spiced mashed potatoes and cooked on a griddle until golden and crispy.",
           },
           // Add more breakfast options...
         ],
@@ -28,18 +53,205 @@ const FoodComponent = () => {
         description: "Lunch meals are here !!",
         meals: [
           {
-            name: "Chapati with Ladyfinger",
-            description: "Chapati served with ladyfinger curry.",
+            name: "Plain Rice",
           },
+          {
+            name: "Chapathi",
+          },
+          {
+            name: "Green Salad",
+          },
+
+          {
+            name: "Rice Varieties",
+
+            options: [
+              {
+                name: "Corn Pulao",
+              },
+              {
+                name: "Curd Rice",
+              },
+              {
+                name: "Bagara Rice",
+              },
+              {
+                name: "Sambar Rice",
+              },
+              {
+                name: "Lemon Rice",
+              },
+            ],
+          },
+
+          {
+            name: "Veg Varieties",
+
+            options: [
+              {
+                name: "Moong Dal",
+              },
+              {
+                name: "Dal Thadka",
+              },
+              {
+                name: "lal Chana",
+              },
+              {
+                name: "Veg Biryani",
+              },
+            ],
+          },
+          {
+            name: "NonVeg Varieties",
+
+            options: [
+              {
+                name: "Egg Curry",
+              },
+              {
+                name: "Chicken Curry",
+              },
+              {
+                name: "Rogani Chicken",
+              },
+              {
+                name: "Beerakaya Curry",
+              },
+            ],
+          },
+          {
+            name: "Sides",
+
+            options: [
+              {
+                name: "Mango Pickle",
+              },
+              {
+                name: "Green Chatney",
+              },
+            ],
+          },
+          {
+            name: "Sweet Varieties",
+
+            options: [
+              {
+                name: "Semiya kheer",
+              },
+              {
+                name: "Suji Ka Halwa",
+              },
+              {
+                name: "Fruit Custurd",
+              },
+              {
+                name: "Jibe Gaja",
+              },
+            ],
+          },
+          {
+            name: "Drink Varieties",
+            description: "Choose from various Sweet options.",
+            options: [
+              {
+                name: "Butter Milk",
+              },
+              {
+                name: "Lemon juice",
+              },
+              {
+                name: "Mango Juice",
+              },
+              {
+                name: "Rasna",
+              },
+              {
+                name: "Roohafza",
+              },
+            ],
+          },
+
           // Add more lunch options...
         ],
       },
       dinner: {
-        description: "Dinner meals are here !!",
+        description: "Daily:Rice,Curd,Banana,Milk,Chapati",
         meals: [
           {
-            name: "Dal Rice",
-            description: "Dal served with rice.",
+            name: "Dal Tadka",
+          },
+          {
+            name: "Palak Dal",
+          },
+          {
+            name: "Tomato Dal",
+          },
+          {
+            name: "Dal Fry",
+          },
+          {
+            name: "Dal Lasoni",
+          },
+          {
+            name: "Methi Dal",
+          },
+          {
+            name: "Masoor Dal",
+          },
+          {
+            name: "Chole Bhature",
+          },
+          {
+            name: "Veg Kofta",
+          },
+          {
+            name: "Khichdi Katta",
+          },
+          {
+            name: "Veg Noodles",
+          },
+          {
+            name: "Capsicum Paneer",
+          },
+          {
+            name: "Egg Bhurji",
+          },
+          {
+            name: "Gobi Mnachurian wet",
+          },
+          {
+            name: "Beans Tomato Curry",
+          },
+          {
+            name: "Egg Fried Rice",
+          },
+          {
+            name: "Mirchi Bhaji",
+          },
+          {
+            name: "Palak Corn curry",
+          },
+          {
+            name: "Cabbage Porial",
+          },
+          {
+            name: "Cabbage Pakoda",
+          },
+          {
+            name: "Veg Fried Rice",
+          },
+          {
+            name: "Veg Soup",
+          },
+          {
+            name: "Veg Tehri",
+          },
+          {
+            name: "Crispy Veg",
+          },
+          {
+            name: "Garlic Rice",
           },
           // Add more dinner options...
         ],
@@ -50,6 +262,10 @@ const FoodComponent = () => {
   };
 
   const mealDescription = getMealDescription();
+
+  const handleRiceOptionChange = (option) => {
+    setSelectedRiceOption(option);
+  };
 
   return (
     <section id="food" className="food">
@@ -92,7 +308,33 @@ const FoodComponent = () => {
               >
                 <div className="meal-card__info">
                   <h4>{meal.name}</h4>
-                  <p>{meal.description}</p>
+
+                  {selectedMeal === "lunch" &&
+                  (meal.name === "Rice Varieties" ||
+                    meal.name === "NonVeg Varieties" ||
+                    meal.name === "Veg Varieties" ||
+                    meal.name === "Drink Varieties" ||
+                    meal.name === "Sweet Varieties" ||
+                    meal.name === "Sides") ? (
+                    <div className="options-buttons">
+                      <h5 style={{ color: "GrayText", marginBottom: "5px" }}>
+                        Choose among them
+                      </h5>
+                      {meal.options.map((option, optionIndex) => (
+                        <button
+                          key={optionIndex}
+                          className={`option-button ${
+                            selectedRiceOption === option.name ? "active" : ""
+                          }`}
+                          onClick={() => handleRiceOptionChange(option.name)}
+                        >
+                          {option.name}
+                        </button>
+                      ))}
+                    </div>
+                  ) : (
+                    <p>{meal.description}</p>
+                  )}
                 </div>
               </div>
             ))}
