@@ -8,43 +8,19 @@ const FoodComponent = () => {
   const getMealDescription = () => {
     const mealDescriptions = {
       breakfast: {
-        description:
-          "Daily:Boiled Egg & Omlette,Bread/Jam/Butter,Tea/coffe/Milk,Sprouts/Corn flakes",
+        description: "Breakfast meals are here!!",
         meals: [
           {
-            name: "Idly/Wada",
-            description:
-              "Idli is a healthy breakfast that is served with delicious coconut chutney and sambar",
+            name: "Poha",
+            description: "Poha is a popular Indian breakfast dish.",
           },
           {
-            name: "Mysoor Boonda/Upma",
-            description:
-              "Mysore bonda is a healthy snack crunchy on the outer side and soft and spongy in the inner side of the dumpling",
+            name: "Poha",
+            description: "Poha is a popular Indian breakfast dish.",
           },
           {
-            name: "Uthapam",
-            description:
-              "Uthapam is a savory South Indian pancake made from fermented rice and lentil batter, often topped with vegetables.",
-          },
-          {
-            name: "Puri/Poha",
-            description:
-              "Poha is a traditional Indian breakfast dish made from flattened rice, often cooked with onions, peas, and spices.",
-          },
-          {
-            name: "Idli Wada",
-            description:
-              "Idli is a healthy breakfast that is served with delicious coconut chutney and sambar",
-          },
-          {
-            name: "Dosa",
-            description:
-              "Dosa is a popular South Indian fermented crepe made from rice and black gram batter.",
-          },
-          {
-            name: "Aloo Parantha",
-            description:
-              "Aloo Paratha is a delicious Indian flatbread stuffed with spiced mashed potatoes and cooked on a griddle until golden and crispy.",
+            name: "Poha",
+            description: "Poha is a popular Indian breakfast dish.",
           },
           // Add more breakfast options...
         ],
@@ -179,79 +155,8 @@ const FoodComponent = () => {
         description: "Daily:Rice,Curd,Banana,Milk,Chapati",
         meals: [
           {
-            name: "Dal Tadka",
-          },
-          {
-            name: "Palak Dal",
-          },
-          {
-            name: "Tomato Dal",
-          },
-          {
-            name: "Dal Fry",
-          },
-          {
-            name: "Dal Lasoni",
-          },
-          {
-            name: "Methi Dal",
-          },
-          {
-            name: "Masoor Dal",
-          },
-          {
-            name: "Chole Bhature",
-          },
-          {
-            name: "Veg Kofta",
-          },
-          {
-            name: "Khichdi Katta",
-          },
-          {
-            name: "Veg Noodles",
-          },
-          {
-            name: "Capsicum Paneer",
-          },
-          {
-            name: "Egg Bhurji",
-          },
-          {
-            name: "Gobi Mnachurian wet",
-          },
-          {
-            name: "Beans Tomato Curry",
-          },
-          {
-            name: "Egg Fried Rice",
-          },
-          {
-            name: "Mirchi Bhaji",
-          },
-          {
-            name: "Palak Corn curry",
-          },
-          {
-            name: "Cabbage Porial",
-          },
-          {
-            name: "Cabbage Pakoda",
-          },
-          {
-            name: "Veg Fried Rice",
-          },
-          {
-            name: "Veg Soup",
-          },
-          {
-            name: "Veg Tehri",
-          },
-          {
-            name: "Crispy Veg",
-          },
-          {
-            name: "Garlic Rice",
+            name: "Dal Rice",
+            description: "Dal served with rice.",
           },
           // Add more dinner options...
         ],
