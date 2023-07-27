@@ -22,16 +22,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+             
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -163,36 +192,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -205,16 +381,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+                
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -346,36 +551,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -388,16 +740,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+              
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -529,36 +910,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -571,16 +1099,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+             
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -712,36 +1269,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -754,16 +1458,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+             
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -895,36 +1628,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -937,16 +1817,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+             
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -1078,36 +1987,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -1120,16 +2176,45 @@ const FoodComponent = () => {
             {
               name: "Bread/Jam/Butter",
             },
-            {
-              name: "Idly/Wada",
-            },
+           
             {
               name: "Tea/Coffee/Milk",
             },
-            {
-              name: "Sprouts/Corn Flakes",
-            },
+          
             // breakfast options...
+            {
+              name: "Breakfast Varieties",
+                 
+              options: [
+                {
+                  name: "Idly/Wada ",
+                },
+                {
+                  name: "Mysoor Boonda",
+                },
+                {
+                  name: "Bagara Rice",
+                },
+                {
+                  name: "Upma",
+                },
+                {
+                  name: "Uthpam",
+                },
+                {
+                  name: "Puri/Poha",
+                },
+                {
+                  name: "Dosa",
+                },
+                {
+                  name: "Aloo Paratha",
+                },
+                {
+                  name: "Sprouts/CornFlakes",
+                },
+              ],
+            },
           ],
         },
         lunch: {
@@ -1261,36 +2346,183 @@ const FoodComponent = () => {
               name: "Plain Rice",
             },
             {
-              name: "Dal Thadka",
-            },
-            {
-              name: "Chole",
-            },
-            {
-              name: "Bhature",
-            },
-            {
-              name: "Cabbage Porial",
-            },
-            {
-              name: "Dal Kichidi",
-            },
-            {
-              name: "Veg Soup",
-            },
-            {
-              name: "Pulka",
-            },
-            {
-              name: "Veg Soup",
+              name: "Chapati",
             },
             {
               name: "Curd",
             },
+            
+            
+
             {
-              name: "Banana",
+              name: "Rice Varieties",
+
+              options: [
+                {
+                  name: "Masala Rice",
+                },
+                {
+                  name: "Veg Fried Rice",
+                },
+                {
+                  name: "Egg Fried Rice",
+                },
+                {
+                  name: " Rice",
+                },
+                {
+                  name: "Lemon Rice",
+                },
+              ],
             },
-            // dinner options...
+
+            {
+              name: "Dal",
+
+              options: [
+                {
+                  name: "Palak Dal",
+                },
+                {
+                  name: "Dal Thadka",
+                },
+                {
+                  name: "Dal Fry",
+                },
+                {
+                  name: "Tomato Dal",
+                },
+                {
+                  name: "Dal Lasoni",
+                },
+                {
+                  name: "Methi Dal",
+                },
+                {
+                  name: "Massor Dal",
+                },
+              ],
+            },
+            {
+              name: "NonVeg Varieties",
+
+              options: [
+                {
+                  name: "Egg Curry",
+                },
+                {
+                  name: "Chicken Curry",
+                },
+                {
+                  name: "Egg Bhurji",
+                },
+               
+              ],
+            },
+            {
+              name: "Sides",
+
+              options: [
+                {
+                  name: "Mango Pickle",
+                },
+                {
+                  name: "Green Chatney",
+                },
+              ],
+            },
+            {
+              name: "Sweet Varieties",
+              options: [
+                {
+                  name: "Semiya kheer",
+                },
+                {
+                  name: "Suji Ka Halwa",
+                },
+                {
+                  name: "Fruit Custurd",
+                },
+                {
+                  name: "Jibe Gaja",
+                },
+              ],
+            },
+            {
+              name: "Drink Varieties",
+              description: "Choose from various Sweet options.",
+              options: [
+                {
+                  name: "Butter Milk",
+                },
+                {
+                  name: "Veg Soup",
+                },
+                {
+                  name: "Mango Juice",
+                },
+                {
+                  name: "Milk",
+                },
+                
+              ],
+            },
+            {
+              name: "Vegetable Varieties",
+              description: "Choose from various Vegetable options.",
+              options: [
+                {
+                  name: "Veg Kofta",
+                },
+                {
+                  name: "Cabbage Porial",
+                },
+                {
+                  name: "Beans Tomato",
+                },
+                {
+                  name: "Crispy Veg",
+                },
+                {
+                  name: "Tomato Onion Curry",
+                },
+                {
+                  name: "Mirchy Bhaji",
+                },
+                
+              ],
+            },
+            {
+              name: "Khichdi Varieties",
+              description: "Choose from various Khichdi options.",
+              options: [
+                {
+                  name: "Dal Khichdi",
+                },
+                {
+                  name: "Khichdi Katta",
+                },
+                
+                
+              ],
+            },
+            {
+              name: "Chinese Varieties",
+              description: "Choose from various Chinese options.",
+              options: [
+                {
+                  name: "Gobhi Manchurian Wet",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                {
+                  name: "Veg Noodles",
+                },
+                
+                
+              ],
+            },
           ],
         },
       },
@@ -1389,6 +2621,72 @@ const FoodComponent = () => {
                           {option.name}
                         </button>
                       ))}
+
+
+                      
+                    </div>
+                  ) : (
+                    <p>{meal.description}</p>
+                  )}
+          
+
+          {selectedMeal === "dinner" &&
+                  (meal.name === "Rice Varieties" ||
+                  meal.name === "Dal" ||
+                    meal.name === "NonVeg Varieties" ||
+                    meal.name === "Veg Varieties" ||
+                    meal.name === "Drink Varieties" ||
+                    meal.name === "Sweet Varieties" ||
+                    meal.name === "Sides"||
+                    meal.name === "Vegetable Varieties" ||
+                    meal.name === "Khichdi Varieties" ||
+                    meal.name === "Chinese Varieties"  ) ? (
+                    <div className="options-buttons">
+                      <h5 style={{ color: "GrayText", marginBottom: "5px" }}>
+                        Choose among them
+                      </h5>
+                      {meal.options.map((option, optionIndex) => (
+                        <button
+                          key={optionIndex}
+                          className={`option-button ${
+                            selectedRiceOption === option.name ? "active" : ""
+                          }`}
+                          onClick={() => handleRiceOptionChange(option.name)}
+                        >
+                          {option.name}
+                        </button>
+                      ))}
+
+
+                      
+                    </div>
+                  ) : (
+                    <p>{meal.description}</p>
+                  )}
+          
+                  
+
+          {selectedMeal === "breakfast" &&
+                  (meal.name === "Breakfast Varieties"
+                   ) ? (
+                    <div className="options-buttons">
+                      <h5 style={{ color: "GrayText", marginBottom: "5px" }}>
+                        Choose among them
+                      </h5>
+                      {meal.options.map((option, optionIndex) => (
+                        <button
+                          key={optionIndex}
+                          className={`option-button ${
+                            selectedRiceOption === option.name ? "active" : ""
+                          }`}
+                          onClick={() => handleRiceOptionChange(option.name)}
+                        >
+                          {option.name}
+                        </button>
+                      ))}
+
+
+                      
                     </div>
                   ) : (
                     <p>{meal.description}</p>
