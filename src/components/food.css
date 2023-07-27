@@ -90,8 +90,7 @@
 .meal-card.active:hover .meal-card__info {
   transform: translateY(-5px);
 }
-/* Add this CSS after the existing styles */
-/* 
+
 .options-buttons {
   display: flex;
   justify-content: center;
@@ -115,8 +114,7 @@
 .option-button.active {
   background-color: #7e0707;
   color: #ffd7d7;
-} */
-/* ... (existing styles) */
+}
 
 .day-dropdown {
   text-align: center;
@@ -138,5 +136,3 @@
   background-color: #fff;
   cursor: pointer;
 }
-
-/* ... (existing styles) */
