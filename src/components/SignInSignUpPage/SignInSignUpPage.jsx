@@ -43,101 +43,109 @@ const SignInSignUpPage = ({ onLoginSuccess }) => {
   };
 
   return (
-    <div className={`cont ${showSignUp ? "s-signup" : ".cont"}`}>
-      <div className="form sign-in">
-        <h2>Sign In</h2>
-        <br />
+    <div className="body">
+      <div className={`cont ${showSignUp ? "s-signup" : ".cont"}`}>
+        <div className="form sign-in">
+          <h2>Sign In</h2>
+          <br />
 
-        <label>
-          <span>WOXSEN Email Address</span>
-          <input
-            type="email"
-            name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </label>
-        <label>
-          <span>Password</span>
-          <input
-            type="password"
-            name="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </label>
-        <button className="submit" type="button" onClick={handleSignIn}>
-          Sign In
-        </button>
-        <p className="forgot-pass">Forgot Password ?</p>
-        {error && <p className="error">{error}</p>}
-      </div>
-
-      <div className="sub-cont">
-        <div className="img">
-          <div className="img-text m-up">
-            <br />
-            <br />
-            <h2>New here?</h2>
-            <p>
-              Sign up if you are new here! and explore woxsen food management
-            </p>
-          </div>
-          <div className="img-text m-in">
-            <h2>Already have an Account</h2>
-            <br />
-            <br />
-            <p>
-              If you already have an account, just sign in. We've missed you!
-            </p>
-          </div>
-          <div className="img-btn" onClick={handleToggleForm}>
-            <span className="m-up">Sign Up</span>
-            <span className="m-in">Sign In</span>
-          </div>
-        </div>
-        <div className="form sign-up">
-          <h2>Sign Up</h2>
-          <label>
-            <span>Name</span>
+          <label className="label">
+            <span className="span">WOXSEN Email Address</span>
             <input
-              type="text"
-              name="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </label>
-          <label>
-            <span>WOXSEN Mail</span>
-            <input
+              className="input"
               type="email"
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </label>
-          <label>
-            <span>Password</span>
+          <label className="label">
+            <span className="span">Password</span>
             <input
+              className="input"
               type="password"
               name="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
           </label>
-          <label>
-            <span>Confirm Password</span>
-            <input
-              type="password"
-              name="confirmPassword"
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-            />
-          </label>
-          <button type="button" className="submit" onClick={handleSignUp}>
-            Sign Up Now
+          <button className="submit" type="button" onClick={handleSignIn}>
+            Sign In
           </button>
+          <p className="forgot-pass">Forgot Password ?</p>
           {error && <p className="error">{error}</p>}
+        </div>
+
+        <div className="sub-cont">
+          <div className="img">
+            <div className="img-text m-up">
+              <br />
+              <br />
+              <h2>New here?</h2>
+              <p>
+                Sign up if you are new here! and explore woxsen food management
+              </p>
+            </div>
+            <div className="img-text m-in">
+              <h2>Already have an Account</h2>
+              <br />
+              <br />
+              <p>
+                If you already have an account, just sign in. We've missed you!
+              </p>
+            </div>
+            <div className="img-btn" onClick={handleToggleForm}>
+              <span className="m-up">Sign Up</span>
+              <span className="m-in">Sign In</span>
+            </div>
+          </div>
+          <div className="form sign-up">
+            <h2>Sign Up</h2>
+            <label className="label">
+              <span className="span">Name</span>
+              <input
+                className="input"
+                type="text"
+                name="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </label>
+            <label className="label">
+              <span className="span">WOXSEN Mail</span>
+              <input
+                className="input"
+                type="email"
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </label>
+            <label className="label">
+              <span className="span">Password</span>
+              <input
+                className="input"
+                type="password"
+                name="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </label>
+            <label className="label">
+              <span className="span">Confirm Password</span>
+              <input
+                className="input"
+                type="password"
+                name="confirmPassword"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+              />
+            </label>
+            <button type="button" className="submit" onClick={handleSignUp}>
+              Sign Up Now
+            </button>
+            {error && <p className="error">{error}</p>}
+          </div>
         </div>
       </div>
     </div>
