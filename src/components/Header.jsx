@@ -6,7 +6,8 @@ const Header = () => {
     <header>
       <nav className="header__nav">
         <div className="header__logo">
-          <h4 data-aos="fade-down">Food Management</h4>
+          <h4 data-aos="fade-down"><span>EnviroFeast</span>  : Fostering Sustainable Dining</h4>
+
           <div className="header__logo-overlay"></div>
         </div>
 
@@ -14,15 +15,11 @@ const Header = () => {
           <li>
             <a href="#food">Menu</a>
           </li>
-          <li>
-            <a href="#menu">Food</a>
-          </li>
+         
           <li>
             <a href="#about">About Us</a>
           </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
+          
         </ul>
 
         <ul className="header__menu-mobile" data-aos="fade-down">

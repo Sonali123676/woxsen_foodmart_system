@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="footer flex-between">
       <h3 className="footer__logo">
-        <span>FOOD</span>MANAGEMENT
+      <span>EnviroFeast</span> : Fostering Sustainable Dining
       </h3>
 
       <ul className="footer__nav">
