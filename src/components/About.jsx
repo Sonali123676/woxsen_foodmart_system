@@ -14,10 +14,7 @@ const About = () => {
         <div className="about-us__image-sushi2">
           <img src={sushi1} alt="Sushi Image" />
         </div>
-        <button className="about-us__button">
-          Order Now
-          <img src={arrowRight} alt="Arrow Icon" />
-        </button>
+        
       </div>
       <div className="about-us__content">
         <h2 className="sushi__subtitle">About Us</h2>
