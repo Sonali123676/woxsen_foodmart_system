@@ -1,24 +1,47 @@
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import "./global.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Subscription from "./components/Subscription";
 import FoodComponent from "./components/Food";
+import SignInSignUpPage from "./components/SignInSignUpPage/SignInSignUpPage";
 
-function App() {
+const App = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  // Function to handle successful login
+  const handleLoginSuccess = () => {
+    setIsLoggedIn(true);
+  };
+
+  // Function to handle logout
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+  };
+
   return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <FoodComponent />
-      <Subscription />
-      <Footer />
+    <div className="App"> {/* Apply the "App" class here */}
+      {/* If the user is not logged in, show the SignInSignUpPage */}
+      {!isLoggedIn && <SignInSignUpPage onLoginSuccess={handleLoginSuccess} />}
+
+      {/* If the user is logged in, show the main components */}
+      {isLoggedIn && (
+        <div>
+          <Header />
+          <Hero />
+          <About />
+          <FoodComponent />
+          <Subscription />
+          <Footer />
+          <button onClick={handleLogout}>Logout</button>
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default App;
+
+
